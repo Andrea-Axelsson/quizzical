@@ -86,7 +86,7 @@ flows and incorporating real-time interactive elements, to add depth and engagem
 
 ### Useful resources
 
-- [Scrimba React course](https://scrimba.com/learn/frontend) - I gained valuable insights from the responsive design course on Scrimba, where instructor Kevin Powell delves deep into the enchanting realm of grids.
+- [Scrimba React course](https://scrimba.com/learn/frontend) - It's an amazing course to learn React as a beginner!
 - [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react/) - Gave me some good ideas and hints on how to approach this project.
 - [Stack Overflow](https://stackoverflow.com/questions/61678116/how-to-return-text-for-an-individual-correct-or-wrong-answer-state-in-react) - Helped me with a frustrating problem.
 
