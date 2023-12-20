@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Netlify](https://voluble-cranachan-59cd24.netlify.app/)
+- Solution URL: [Netlify](https://glittering-panda-1e276a.netlify.app/)
 
 ## My process
 
