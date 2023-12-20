@@ -1,4 +1,4 @@
-# Frontend Mentor - Testimonials grid section solution
+# Scrimba - Solo Project Quizzical
 
 This is a solution to the Quizzical solo project on Scrimba in the React basics course.(https://scrimba.com/learn/learnreact).
 
