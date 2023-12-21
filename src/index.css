@@ -16,14 +16,27 @@ main{
   align-items: center;
 }
 
-.background{
+.background {
+  position: relative;
   width: 700px;
-  height: 1000px;
+  height: 800px;
   background: #F5F7FB;
-  background-image: url("assets/blobs.png");
+  padding: 100px;
+  z-index: 1;
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("assets/question.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
+  opacity: 0.2;
+  z-index: -1;
 }
 
 .start{

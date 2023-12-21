@@ -30,7 +30,7 @@ const App = () => {
 
     useEffect(() => {
         async function getQuestion() {
-            const res = await fetch("https://opentdb.com/api.php?amount=5&category=20&difficulty=easy&type=multiple");
+            const res = await fetch("https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple");
             const data = await res.json();
 
             const quizResults = data.results;
