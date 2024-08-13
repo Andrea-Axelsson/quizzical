@@ -2,14 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
-main{
-  height: 100vh;
-}
-
-main{
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,74 +13,60 @@ main{
 }
 
 .background {
-  position: relative;
-  width: 700px;
-  height: 800px;
-  background: #F5F7FB;
-  padding: 100px;
-  z-index: 1;
-}
-
-.background::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("assets/question.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.2;
-  z-index: -1;
-}
-
-.start{
+  width: 100%;
   display: flex;
-  margin-top: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: auto;
+  padding: 5%;
 }
 
-.start-h1{
+.start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start-h1 {
   margin-bottom: 0.625em;
   color: #293264;
   font-size: 1.875rem;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
-.start-p{
+.start-p {
   color: #293264;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1.875em;
 }
 
-.start-button{
+.start-button {
   padding: 1em 3.75em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
   font-weight: 500;
-  color: #F5F7FB;
+  color: #f5f7fb;
   border-radius: 15px;
   border: none;
-  background: #4D5B9E;
-  cursor: pointer; 
+  background: #4d5b9e;
+  cursor: pointer;
 }
 
 .start-button:hover,
-.check-answers-button:hover{
-  
-  background: #272e51; 
+.check-answers-button:hover {
+  background: #272e51;
 }
 
-.question{
-  border-bottom: 0.794px solid #DBDEF0;
+.question {
+  border-bottom: 0.794px solid #dbdef0;
 }
 
-.question-title{
+.question-title {
   color: #293264;
   font-family: Karla;
   font-size: 16px;
@@ -94,9 +76,9 @@ main{
   margin-top: 0.75em;
 }
 
-.your-score-text{
+.your-score-text {
   display: none;
-  margin-top: 10px; 
+  margin-top: 10px;
   color: #293264;
   text-align: center;
   font-family: Inter;
@@ -104,85 +86,83 @@ main{
   font-weight: 700;
 }
 
-.show-score{
+.show-score {
   display: flex;
 }
 
 /* RADIO BUTTON STYLES */
 
-
 .radio-button {
-display: inline-block;
-margin: 20px 10px 10px 0;
-padding: 5px 20px;
-border: 1px solid #4D5B9E; 
-border-radius: 12px;
-cursor: pointer;
-transition: background-color 0.3s;
-position: relative;
-font-size: 0.625rem;
-cursor: pointer;
-color: #293264; 
+  display: inline-block;
+  margin: 20px 10px 10px 0;
+  padding: 5px 20px;
+  border: 1px solid #4d5b9e;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  font-size: 0.625rem;
+  cursor: pointer;
+  color: #293264;
 }
 
 .radio-button:hover {
-background-color: #d1e0fa;  
+  background-color: #d1e0fa;
 }
 
 /* WRONG */
 
 .wrong {
-background-color: #d1e0fa;
-background: #F8BCBC;
-border: none;
-color: #81869e;   
+  background-color: #d1e0fa;
+  background: #f8bcbc;
+  border: none;
+  color: #81869e;
 }
 
 /* CORRECT */
 
 .correct {
-background-color: #94D7A2;
-border: none;
+  background-color: #94d7a2;
+  border: none;
 }
 
 /* GRAYED OUT */
 
 .no-answer {
-
-border: 1px solid #8f95b0;
-background-color: none;
-color: #8f95b0;
+  border: 1px solid #8f95b0;
+  background-color: none;
+  color: #8f95b0;
 }
 
 .radio-button input {
-position: absolute;
-opacity: 0;
-cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .radio-button.checked {
-background-color: #D6DBF5;;
-border: none;
+  background-color: #d6dbf5;
+  border: none;
 }
 
 .radio-button.checked:hover {
-background-color: #bac4f5;
+  background-color: #bac4f5;
 }
 
-.check-answers-button{
+.check-answers-button {
   margin: 30px 0;
   padding: 1em 3.75em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.625rem;
   font-weight: 500;
-  color: #F5F7FB;
+  color: #f5f7fb;
   border-radius: 10px;
   border: none;
-  background: #4D5B9E;
-  cursor: pointer;  
+  background: #4d5b9e;
+  cursor: pointer;
 }
 
-.button-and-score{
+.button-and-score {
   display: flex;
   flex-direction: row;
   justify-content: center;
